@@ -17,9 +17,10 @@
                <span class="lists">Pricing</span>
                <span class="lists">Support</span>
             </div>
-         </div>
+        </div>
     </div>
-    </div>
+</div>
+
     <br></br>
     <div class="landing">
         <img src="/images/landing.png" alt="A landing page for Zerodha">
@@ -33,5 +34,41 @@
     <div class="signButton">
         <button class="signup">Sign up now</button>
     </div>
+    
+    <div class="calc">
+        <h2>Rate of interest calculator</h2>
+        <label  for="">Enter Principal Amount</label>
+      <input class="principle" type="text">
+      <br><br>
+      <label for="">Enter Rate of interest </label>
+      <input class="time" type="text" name="" id="">
+      <br><br>
+      <label for="">Enter Amount of year</label>
+      <input class="rate" type="text" name="" id="">
+      <br><br>
+      <h3 class="res"></h3>
+      <button class="calc signup" onclick="calc()">Calculate</button>
+    </div><br>
+    <script>
+
+function calc(){
+    
+    let amount = document.querySelector('.principle')
+    let time = document.querySelector('.time')
+    let intrest = document.querySelector('.rate')
+    let res = document.querySelector('.res')
+    
+    let amount_val = amount.value 
+    let time_val =  time.value
+    let intrest_val =  intrest.value
+    
+
+   console.log((amount_val * time_val * intrest_val)/100);
+   let si = (amount_val * time_val * intrest_val)/100
+   res.innerText = si
+   document.body.appendChild(res)
+
+}
+    </script>
 </body>
 </html>

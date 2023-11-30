@@ -64,3 +64,25 @@
     background-color: black;
     color: white;
 }
+
+
+/* calc */
+
+.calc{
+    
+}
+
+.calc input{
+    height: 1.5rem;
+    padding: 10px 20px;
+   
+}
+
+.calc label,h2{
+    padding: 10px;
+}
+
+.res{
+    border: 1px solid black;
+    width: 5rem;
+}
