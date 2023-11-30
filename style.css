@@ -1,0 +1,66 @@
+/* Navbar */
+.nav{
+    margin-top: 1.5rem;
+}
+
+.icons{
+   padding-left: 22%;
+}
+
+.lists{
+    text-align: right;
+    padding-right: 3%;
+    position: relative;
+    top: -10px;
+    right:  10rem;
+    cursor: pointer;
+    color: #666;
+    font-weight: 400;
+}
+
+/* Landing Image */
+
+.landing{
+  text-align: center;
+}
+
+.landing img{
+    width: 1000px;
+}
+
+
+/* Texts */
+
+.heading h1{
+    font-size: 3rem;
+    font-weight:lighter;
+    text-align: center;
+}
+
+.para h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+/*Sign up Button */
+.signButton{
+    text-align: center;
+    padding: 10px;
+}
+
+.signup{
+    padding: 11px 30px;
+    background-color: #387ed1;
+    color: white;
+    border-radius: 3px;
+    border:1px solid rgba(0, 0,0,0) ;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.signup:hover{
+    background-color: black;
+    color: white;
+}
