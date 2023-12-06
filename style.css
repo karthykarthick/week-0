@@ -1,27 +1,39 @@
 /* Navbar */
 .nav{
-    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+    padding-bottom: 20px;
+    box-shadow: 2px 1px 2px #eee;
 }
 
 .icons{
-   padding-left: 22%;
+    padding-top:20px ;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
 }
 
-.lists{
-    text-align: right;
-    padding-right: 3%;
-    position: relative;
-    top: -10px;
-    right:  10rem;
+.list div{
+    padding: 20px;
     cursor: pointer;
     color: #666;
     font-weight: 400;
 }
 
+/* .lists{
+   
+} */
+
 /* Landing Image */
 
-.landing{
-  text-align: center;
+.landing,.heading,.para,.signButton{
+  display: flex;
+  justify-content: center;
+ 
+ 
 }
 
 .landing img{
@@ -34,19 +46,22 @@
 .heading h1{
     font-size: 3rem;
     font-weight:lighter;
-    text-align: center;
+    margin: 0;
+   
 }
 
 .para h3{
     font-size: 1.5rem;
+    margin-top: 10;
+    margin-bottom: 20;
     font-weight: lighter;
-    text-align: center;
+   
 }
 
 
 /*Sign up Button */
 .signButton{
-    text-align: center;
+   
     padding: 10px;
 }
 
