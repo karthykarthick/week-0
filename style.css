@@ -1,26 +1,26 @@
 /* Navbar */
-.nav{
-    display: flex;
-    justify-content: space-between;
+.nav {
+  display: flex;
+  justify-content: space-between;
   padding-left: 100px;
   padding-right: 100px;
-    padding-bottom: 20px;
-    box-shadow: 2px 1px 2px #eee;
+  padding-bottom: 20px;
+  box-shadow: 2px 1px 2px #eee;
 }
 
-.icons{
-    padding-top:20px ;
+.icons {
+  padding-top: 20px;
 }
-.list{
-    display: flex;
-    justify-content: space-between;
+.list {
+  display: flex;
+  justify-content: space-between;
 }
 
-.list div{
-    padding: 20px;
-    cursor: pointer;
-    color: #666;
-    font-weight: 400;
+.list div {
+  padding: 20px;
+  cursor: pointer;
+  color: #666;
+  font-weight: 400;
 }
 
 /* .lists{
@@ -29,75 +29,65 @@
 
 /* Landing Image */
 
-.landing,.heading,.para,.signButton{
+.landing,
+.heading,
+.para,
+.signButton {
   display: flex;
   justify-content: center;
- 
- 
 }
 
-.landing img{
-    width: 1000px;
+.landing img {
+  width: 1000px;
 }
-
 
 /* Texts */
 
-.heading h1{
-    font-size: 3rem;
-    font-weight:lighter;
-    margin: 0;
-   
+.heading h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin: 0;
 }
 
-.para h3{
-    font-size: 1.5rem;
-    margin-top: 10;
-    margin-bottom: 20;
-    font-weight: lighter;
-   
+.para h3 {
+  font-size: 1.5rem;
+  margin-top: 10;
+  margin-bottom: 20;
+  font-weight: lighter;
 }
-
 
 /*Sign up Button */
-.signButton{
-   
-    padding: 10px;
+.signButton {
+  padding: 10px;
 }
 
-.signup{
-    padding: 11px 30px;
-    background-color: #387ed1;
-    color: white;
-    border-radius: 3px;
-    border:1px solid rgba(0, 0,0,0) ;
-    cursor: pointer;
-    font-size: larger;
+.signup {
+  padding: 11px 30px;
+  background-color: #387ed1;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  font-size: larger;
 }
 
-.signup:hover{
-    background-color: black;
-    color: white;
+.signup:hover {
+  background-color: black;
+  color: white;
 }
-
 
 /* calc */
-
-.calc{
-    
+.calc input {
+  height: 1.5rem;
+  padding: 10px 20px;
 }
 
-.calc input{
-    height: 1.5rem;
-    padding: 10px 20px;
-   
+.calc label,
+h2 {
+  padding: 10px;
 }
 
-.calc label,h2{
-    padding: 10px;
-}
-
-.res{
-    border: 1px solid black;
-    width: 5rem;
+.res {
+  border: 1px solid black;
+  width: 5rem;
 }
